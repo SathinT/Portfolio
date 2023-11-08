@@ -1,0 +1,149 @@
+header{
+  position: fixed;
+  z-index: 10;
+}
+.aboutPage{
+    position: absolute;
+    top: 975px;
+  }
+  .aboutBackImg{
+    width: 1550px;
+    height: 970px;
+  }
+  .Black_Overlay-about{
+    width: 1298px;
+    height: 971px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(84, 84, 84, 0.05) 1.1%, rgba(75, 75, 75, 0.23) 4%, rgba(66, 66, 66, 0.46) 8%, rgba(58, 58, 58, 0.66) 10%, rgba(54, 54, 54, 0.76) 12%, rgba(51, 51, 51, 0.85) 13%, rgba(47, 47, 47, 0.99) 16%, rgba(45, 45, 45, 0.98) 34%, rgba(45, 45, 45, 0.99) 34.31%, #2D2D2D 100%);
+    position: absolute;
+    display: flex;
+    top: 0px;
+    right: -436px;
+  }
+  .Black_Overlay-about1{
+    width: 1919px;
+    height: 971px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.486);
+    position: absolute;
+    display: flex;
+    top: 0px;
+  }
+
+  .aboutMeTxt1{
+    width: 215px;
+    /*height: 89px;*/
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inder;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.58px;
+    left: 996px;
+    top: -870px;
+  }
+
+  .aboutMeTxt p{
+    width: 544px;
+    /*height: 114px;*/
+    flex-shrink: 0;
+    color: #BCBCBC;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 114px;
+    left: 1279px;
+  }
+
+  .aboutDivider{
+    width: 676.001px;
+    height: 3px;
+    background: #cdcdcd;
+    position: absolute;
+    left: 1107px;
+    top: 362px;
+  }
+
+
+  /*services*/
+  .servicesTxt1{
+    width: 147px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inder;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    position: relative;
+    left: 992px;
+    top: -771px;
+  }
+
+  .servicesTxt>ul>li>a{
+    width: 275px;
+    height: 96px;
+    flex-shrink: 0;
+
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+.servicesTxt>ul{
+  position: relative;
+  left: 1006px;
+  top: -793px;
+  color: burlywood;
+}
+
+
+/*interests*/
+.interestsTxt1{
+  width: 147px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Inder;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  position: relative;
+  left: 992px;
+  top: -771px;
+}
+
+.interestsTxt>ul>li>a{
+  width: 275px;
+  height: 96px;
+  flex-shrink: 0;
+
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.interestsTxt>ul{
+  position: relative;
+  left: 1006px;
+  top: -793px;
+  color: burlywood;
+}
