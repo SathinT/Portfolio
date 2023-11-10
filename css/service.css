@@ -1,0 +1,26 @@
+header{
+    position: fixed;
+    z-index: 10;
+}
+.servicePage{
+    position: absolute;
+    top: 1945px;
+    height: 928px;
+}
+.servicePage img{
+    position: relative;
+    left: 0px;
+    height: 928px;
+    width: 1919px;
+}
+.servicePage h1{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    white-space: nowrap;
+    position: relative;
+    left: 148px;
+    top: -882px;
+    font-size: 85px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}

@@ -56,6 +56,10 @@ nav>ul>li:nth-child(1){
     padding: 11px;
     margin: -10px;
 }
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
 .homeCont{
     position: absolute;
     width: 600px;
@@ -126,6 +130,9 @@ h2:nth-child(6){
 }
 
 /* button */
+a{
+    text-decoration: none;
+}
 .findMoreBtn {
     position: relative;
     transition: all 0.3s ease-in-out;

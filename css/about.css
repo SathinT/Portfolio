@@ -12,14 +12,14 @@ header{
     height: 970px;
   }
   .Black_Overlay-about{
-    width: 1298px;
+    width: 1246px;
     height: 971px;
     flex-shrink: 0;
     background: linear-gradient(90deg, rgba(84, 84, 84, 0.05) 1.1%, rgba(75, 75, 75, 0.23) 4%, rgba(66, 66, 66, 0.46) 8%, rgba(58, 58, 58, 0.66) 10%, rgba(54, 54, 54, 0.76) 12%, rgba(51, 51, 51, 0.85) 13%, rgba(47, 47, 47, 0.99) 16%, rgba(45, 45, 45, 0.98) 34%, rgba(45, 45, 45, 0.99) 34.31%, #2D2D2D 100%);
     position: absolute;
     display: flex;
     top: 0px;
-    right: -436px;
+    right: -303px;
   }
   .Black_Overlay-about1{
     width: 1919px;
@@ -33,8 +33,9 @@ header{
 
 .aboutMeTxt{
   position: relative;
-  left: 1100px;
-  top: -1140px;
+  left: 1064px;
+  top: -1080px;
+  width: 90px;
 }
   .aboutMeTxt1{
     width: 215px;
@@ -73,7 +74,7 @@ header{
     background: #cdcdcd;
     position: absolute;
     left: -11px;
-    top: 371px;
+    top: 425px;
   }
 
 
@@ -81,7 +82,8 @@ header{
 .servicesTxt{
   position: relative;
   left: 1100px;
-  top: -1140px;
+  top: -990px;
+  width: 501px;
 }
   .servicesTxt1{
     width: 147px;
@@ -124,8 +126,9 @@ header{
 /*interests*/
 .interestsTxt{
   position: relative;
-  left: 1100px;
-  top: -1140px;
+  left: 550px;
+  top: -740px;
+  width: 471px;
 }
 .interestsTxt1{
   width: 147px;
@@ -168,8 +171,9 @@ header{
 /*education*/
 .educationTxt{
   position: relative;
-  left: 1100px;
-  top: -1140px;
+  left: 1425px;
+  top: -1202px;
+  width: 492px;
 }
 .educationTxt1{
   width: 147px;
