@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/service.css">
     <link rel="stylesheet" href="css/serviceCards.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
         <div id="Background_image"><img src="assests/Home/PXL_20230911_070119537.jpg" alt=""></div>
@@ -30,7 +32,7 @@
 
 <!--Text In HomePage-->
 <section class="homeCont">
-<div>
+<div  data-aos="fade-up">
     <h2>SATHIN</h2>
     <h2>THENUJA</h2>
     <hr>
@@ -50,12 +52,12 @@
 <!--About Page        -->
 
 <section class="aboutPage" id="aboutPage">
-<div><img class="aboutBackImg" src="assests/About/Frame%201.jpg" alt=""></div>
-<div class="Black_Overlay-about"></div>
-<div class="Black_Overlay-about1"></div>
+<div data-aos="fade-right"><img class="aboutBackImg" src="assests/About/Frame%201.jpg" alt=""></div>
+<div data-aos="fade-right" class="Black_Overlay-about"></div>
+<div data-aos="fade-right" class="Black_Overlay-about1"></div>
 
 <!--            about texts-->
-<div class="aboutMeTxt">
+<div data-aos="fade-left" class="aboutMeTxt">
 <h1 class="aboutMeTxt1">ABOUT ME</h1>
     <p>Hello there! My name is Sathin Thenuja. I am a Software Engineer, and I'm very passionate and dedicated to my work. With 1+ years experience as a professional web designer,I have acquired the skills and knowledge necessary to make your project a success.
     </p>
@@ -64,7 +66,7 @@
 </div>
 
 <!--            services texts-->
-<div class="servicesTxt">
+<div data-aos="fade-left" class="servicesTxt">
 <h3 class="servicesTxt1">SERVICES</h3>
     <ul>
     <li><a>Web Development</a></li>
@@ -75,7 +77,7 @@
 </div>
 
     <!--            interests texts-->
-    <div class="interestsTxt">
+    <div data-aos="fade-left" class="interestsTxt">
         <h3 class="interestsTxt1">INTERESTS</h3>
         <ul>
             <li><a>Reading and Writing</a></li>
@@ -86,7 +88,7 @@
     </div>
 
     <!--            Education texts-->
-    <div class="educationTxt">
+    <div data-aos="fade-left" class="educationTxt">
         <h3 class="educationTxt1">EDUCATION</h3>
         <h4>GRADUATE DIP. IN SOFTWARE ENGINEERING</h4>
         <ul>
@@ -118,26 +120,58 @@
 
             <h1>SERVICES</h1>
 
-            <div class="cards">
-                <div class="card red">
-                    <p class="tip">Software Development</p>
-                    <p class="second-text">Developing software involves
-                        creating your software,making it
-                        one of the most vital parts of your
-                        life to make tasks easy</p>
+<!--            <div  class="cards">-->
+<!--                <div data-aos="flip-up" class="card red">-->
+<!--                    <p class="tip">Software Development</p>-->
+<!--                    <p class="second-text">Developing software involves-->
+<!--                        creating your software,making it-->
+<!--                        one of the most vital parts of your-->
+<!--                        life to make tasks easy</p>-->
+<!--                </div>-->
+<!--                <div data-aos="flip-up" class="card blue">-->
+<!--                    <p class="tip">Web Development</p>-->
+<!--                    <p class="second-text">Developing websites involves creating your website , making it one of the most vital parts of your marketing</p>-->
+<!--                </div>-->
+<!--                <div data-aos="flip-up" class="card green">-->
+<!--                    <p class="tip">Graphic Designing</p>-->
+<!--                    <p class="second-text">Creating graphic designs.We make your imagination come through my skills.We make dreams visible and perfect</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <div class="card">
+                <div class="first-content">
+                    <span>First</span>
                 </div>
-                <div class="card blue">
-                    <p class="tip">Web Development</p>
-                    <p class="second-text">Developing websites involves creating your website , making it one of the most vital parts of your marketing</p>
+                <div class="second-content">
+                    <span>Second</span>
                 </div>
-                <div class="card green">
-                    <p class="tip">Graphic Designing</p>
-                    <p class="second-text">Creating graphic designs.We make your imagination come through my skills.We make dreams visible and perfect</p>
+            </div>
+
+            <div class="card">
+                <div class="first-content">
+                    <span>First</span>
+                </div>
+                <div class="second-content">
+                    <span>Second</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="first-content">
+                    <span>First</span>
+                </div>
+                <div class="second-content">
+                    <span>Second</span>
                 </div>
             </div>
         </section>
 <!--        <footer>-->
 <!--            <h1>Developed By Sathin Thenuja</h1>-->
 <!--        </footer>-->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
