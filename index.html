@@ -14,17 +14,17 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-        <div id="Background_image"><img src="assests/Home/PXL_20230911_070119537.jpg" alt=""></div>
+        <div data-aos="fade-down" id="Background_image"><img src="assests/Home/PXL_20230911_070119537.jpg" alt=""></div>
         <div id="Black_Overlay-1"></div>
 <header>
 
     <nav>
-        <h1>Sathin Thenuja</h1>
-        <ul>
+        <h1 data-aos="fade-right">Sathin Thenuja</h1>
+        <ul data-aos="fade-left">
         <li><a class="nav-button" href="#">Home</a></li>
         <li><a class="nav-button" href="#aboutPage">About Me</a></li>
         <li><a class="nav-button" href="#servicePage">Services</a></li>
-        <li><a class="nav-button" data-page="">Work</a></li>
+        <li><a class="nav-button" href="#">Work</a></li>
         <li><a class="nav-button" data-page="">Contact</a></li>
         </ul>
     </nav>
@@ -124,7 +124,7 @@
             <h1>SERVICES</h1>
 
             <div class="container">
-                <div data-aos="fade-up" class="card">
+                <div data-aos="fade-right" class="card">
                     <div class="face back">
                         <div class="content">
                             <span class="stars"></span>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-up" class="card1">
+                <div data-aos="fade-down" class="card1">
                     <div class="face back">
                         <div class="content">
                             <span class="stars"></span>
@@ -154,7 +154,7 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-up" class="card2">
+                <div data-aos="fade-left" class="card2">
                     <div class="face back">
                         <div class="content">
                             <span class="stars"></span>
@@ -174,10 +174,44 @@
 
 
 <!--    Work    -->
-        <section class="WorkPage">
-            <div class="workBackImg">
-                <img src="assests/Work/back.jpeg">
+        <section class="WorkPage" id="WorkPage">
+                <img src="assests/Work/back.png">
+            <h1>Projects</h1>
+
+            <div class="workOverlay">
+
+                <div class="projectCards">
+                    <div class="project">
+                        <img src="assests/Work/Screenshot%20(23).png" alt="Project">
+                        <div class="card__content">
+                            <p class="card__title">Student Management System</p>
+                            <p class="card__description">A CLI based Student management system fined using java for the 1st semester final Project</p>
+                        </div>
+                    </div>
+
+
+                    <div class="project1">
+                        <img src="assests/Work/projects%202.jpg" alt="Project">
+                        <div class="card__content">
+                            <p class="card__title">Lunuvila Car Rental</p>
+                            <p class="card__description">A System For Car Rental Service.Programmed using java and javafx Ui.developed as the Evaluation Project</p>
+                        </div>
+                    </div>
+
+                    <div class="project2">
+                        <img src="assests/Work/blueOcean.jpg" alt="Project">
+                        <div class="card__content">
+                            <p class="card__title">Blue Ocean Hotel</p>
+                            <p class="card__description">A Hotel Management Sysytem Created Using Java And Some Cool UI's Designed For Education Purpose As Ui Practice </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="workOverlay1"></div>
+
             </div>
+
+
         </section>
                                                         <!--        <footer>-->
 <!--            <h1>Developed By Sathin Thenuja</h1>-->
