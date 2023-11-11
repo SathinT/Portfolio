@@ -24,7 +24,7 @@
         <li><a class="nav-button" href="#">Home</a></li>
         <li><a class="nav-button" href="#aboutPage">About Me</a></li>
         <li><a class="nav-button" href="#servicePage">Services</a></li>
-        <li><a class="nav-button" href="#">Work</a></li>
+        <li><a class="nav-button" href="#WorkPage">Work</a></li>
         <li><a class="nav-button" data-page="">Contact</a></li>
         </ul>
     </nav>
@@ -178,10 +178,14 @@
                 <img src="assests/Work/back.png">
             <h1>Projects</h1>
 
-            <div class="workOverlay">
+            <div data-aos="fade-down" class="workOverlay">
 
                 <div class="projectCards">
-                    <div class="project">
+                    <div data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000"
+
+                         class="project">
                         <img src="assests/Work/Screenshot%20(23).png" alt="Project">
                         <div class="card__content">
                             <p class="card__title">Student Management System</p>
@@ -190,7 +194,11 @@
                     </div>
 
 
-                    <div class="project1">
+                    <div data-aos="flip-up"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000"
+
+                         class="project1">
                         <img src="assests/Work/projects%202.jpg" alt="Project">
                         <div class="card__content">
                             <p class="card__title">Lunuvila Car Rental</p>
@@ -198,7 +206,11 @@
                         </div>
                     </div>
 
-                    <div class="project2">
+                    <div data-aos="flip-right"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000"
+
+                         class="project2">
                         <img src="assests/Work/blueOcean.jpg" alt="Project">
                         <div class="card__content">
                             <p class="card__title">Blue Ocean Hotel</p>
@@ -207,7 +219,21 @@
                     </div>
 
                 </div>
-                <div class="workOverlay1"></div>
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom"
+
+                     class="workOverlay1">
+                    <h1>Vist For More</h1>
+                    <a href="https://github.com/SathinT">
+                    <button data-aos="fade-up-left"
+
+                            class="button">
+                        <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+                        GITHUB
+                    </button>
+                    </a>
+
+                </div>
 
             </div>
 

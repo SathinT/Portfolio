@@ -18,8 +18,8 @@ header{
     top: -879px;
     left: 815px;
     font-size: 71px;
-    font-family: fantasy;
-    color: black;
+    font-family: sans-serif;
+    color: white;
     text-shadow: 3px 7px 12px #6a5846;
 }
 .workOverlay{
@@ -35,10 +35,10 @@ header{
 .workOverlay1{
     background-color: #000000b8;
     position: relative;
-    height: 132px;
-    width: 532px;
+    height: 77px;
+    width: 460px;
     top: 175px;
-    left: 1191px;
+    left: 1259px;
     border-radius: 45px;
 }
 
@@ -200,5 +200,66 @@ header{
     height: 346px;
     width: 441px;
 }
+
+
+
+/*button*/
+.button {
+    width: 129px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: rgb(161, 255, 20);
+    border-radius: 30px;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+    padding-left: 8px;
+    transition-duration: .5s;
+    left: 310px;
+    top: -70px;
+}
+
+.svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+}
+
+.bell path {
+    fill: rgb(19, 19, 19);
+}
+
+.button:hover {
+    background-color: rgb(192, 255, 20);
+    transition-duration: .5s;
+}
+
+.button:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+}
+
+.button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+}
+
+
+.workOverlay1 h1{
+    position: relative;
+    left: 37px;
+    top: 6px;
+    font-family: system-ui;
+    color: white;
+    text-shadow: none;
+    font-size: 41px;
+}
+
 
 
