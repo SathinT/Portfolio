@@ -109,23 +109,23 @@ hr{
     height: 3px;
     background: #FFF;
     position: absolute;
-    left: 65px;
-    top: 432px
+    left: 52px;
+    top: 335px;
 }
 
 h2:nth-child(4){
     position: absolute;
     color: white;
     font-size: 42px;
-    left: 108px;
-    top: 425px;
+    left: 72px;
+    top: 374px;
 }
 h2:nth-child(6){
     position: absolute;
     color: rgb(148, 148, 148);
     font-size: 25px;
-    left: 178px;
-    top: 670px;
+    left: 152px;
+    top: 613px;
 }
 
 /* button */
@@ -150,8 +150,8 @@ a{
     outline: none;
     overflow: hidden;
     font-size: 20px;
-    left: 215px;
-    bottom: -148px;
+    left: 195px;
+    bottom: -106px;
 }
 
 .icon {
