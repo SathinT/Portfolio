@@ -6,30 +6,30 @@ header{
   position: absolute;
   top: 975px;
   height: 963px;
-  }
-  .aboutBackImg{
-    width: 1550px;
-    height: 970px;
-  }
-  .Black_Overlay-about{
-    width: 1246px;
-    height: 971px;
-    flex-shrink: 0;
-    background: linear-gradient(90deg, rgba(84, 84, 84, 0.05) 1.1%, rgba(75, 75, 75, 0.23) 4%, rgba(66, 66, 66, 0.46) 8%, rgba(58, 58, 58, 0.66) 10%, rgba(54, 54, 54, 0.76) 12%, rgba(51, 51, 51, 0.85) 13%, rgba(47, 47, 47, 0.99) 16%, rgba(45, 45, 45, 0.98) 34%, rgba(45, 45, 45, 0.99) 34.31%, #2D2D2D 100%);
-    position: absolute;
-    display: flex;
-    top: 0px;
-    right: -303px;
-  }
-  .Black_Overlay-about1{
-    width: 1919px;
-    height: 971px;
-    flex-shrink: 0;
-    background: rgba(0, 0, 0, 0.486);
-    position: absolute;
-    display: flex;
-    top: 0px;
-  }
+}
+.aboutBackImg{
+  width: 1550px;
+  height: 970px;
+}
+.Black_Overlay-about{
+  width: 1246px;
+  height: 971px;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, rgba(84, 84, 84, 0.05) 1.1%, rgba(75, 75, 75, 0.23) 4%, rgba(66, 66, 66, 0.46) 8%, rgba(58, 58, 58, 0.66) 10%, rgba(54, 54, 54, 0.76) 12%, rgba(51, 51, 51, 0.85) 13%, rgba(47, 47, 47, 0.99) 16%, rgba(45, 45, 45, 0.98) 34%, rgba(45, 45, 45, 0.99) 34.31%, #2D2D2D 100%);
+  position: absolute;
+  display: flex;
+  top: 0px;
+  right: -303px;
+}
+.Black_Overlay-about1{
+  width: 1919px;
+  height: 971px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.486);
+  position: absolute;
+  display: flex;
+  top: 0px;
+}
 
 .aboutMeTxt{
   position: relative;
@@ -37,83 +37,83 @@ header{
   top: -1080px;
   width: 90px;
 }
-  .aboutMeTxt1{
-    width: 215px;
-    /* height: 89px; */
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: right;
-    font-family: Inder;
-    font-size: 58px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 2.58px;
-    left: -75px;
-    top: 183px;
-  }
+.aboutMeTxt1{
+  width: 215px;
+  /* height: 89px; */
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Inder;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.58px;
+  left: -75px;
+  top: 183px;
+}
 
-  .aboutMeTxt p{
-    width: 544px;
-    /* height: 114px; */
-    flex-shrink: 0;
-    color: #BCBCBC;
-    font-family: Arial;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    top: 170px;
-    left: 206px;
-  }
+.aboutMeTxt p{
+  width: 544px;
+  /* height: 114px; */
+  flex-shrink: 0;
+  color: #BCBCBC;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 170px;
+  left: 206px;
+}
 
-  .aboutDivider{
-    width: 676.001px;
-    height: 3px;
-    background: #cdcdcd;
-    position: absolute;
-    left: -11px;
-    top: 425px;
-  }
+.aboutDivider{
+  width: 676.001px;
+  height: 3px;
+  background: #cdcdcd;
+  position: absolute;
+  left: -11px;
+  top: 425px;
+}
 
 
-  /*services*/
+/*services*/
 .servicesTxt{
   position: relative;
   left: 1100px;
   top: -990px;
   width: 501px;
 }
-  .servicesTxt1{
-    width: 147px;
-    height: 40px;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: right;
-    font-family: Inder;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.8px;
-    position: relative;
-    left: -91px;
-    top: 212px;
-  }
+.servicesTxt1{
+  width: 147px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Inder;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  position: relative;
+  left: -91px;
+  top: 212px;
+}
 
-  .servicesTxt>ul>li>a{
-    width: 275px;
-    height: 96px;
-    flex-shrink: 0;
+.servicesTxt>ul>li>a{
+  width: 275px;
+  height: 96px;
+  flex-shrink: 0;
 
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .servicesTxt>ul{
   position: relative;

@@ -68,11 +68,37 @@
     font-size: 32px;
 }
 
-.face.front {
+.face.front1 {
+    transition: 0.5s;
+}
+.face.front2{
+    transition: 0.5s;
+}
+.face.front3 {
     transition: 0.5s;
 }
 
-.face.front b {
+.face.front1 b {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    text-align: center;
+}
+.face.front2 b {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    text-align: center;
+}
+.face.front3 b {
     margin: 0;
     padding: 0;
     font-size: 4em;
@@ -83,27 +109,41 @@
     text-align: center;
 }
 
-.card:hover .face.front {
+.card:hover .face.front1 {
     height: 60px;
 }
-.card1:hover .face.front {
+.card1:hover .face.front2 {
     height: 60px;
 }
-.card2:hover .face.front {
+.card2:hover .face.front3 {
     height: 60px;
 }
 
-.card:hover .face.front b {
+.card:hover .face.front1 b {
     font-size: 2em;
 }
-.card1:hover .face.front b {
+.card1:hover .face.front2 b {
     font-size: 2em;
 }
-.card2:hover .face.front b {
+.card2:hover .face.front3 b {
     font-size: 2em;
 }
 
-.face.front {
-    background-color: #225757;
+.face.front1 {
+    background-image: url("../assests/Service/softwareDevelopment.jpg");
     border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.face.front2 {
+    background-image: url("../assests/Service/webDevelopment.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.face.front3 {
+    background-image: url("../assests/Service/graphicDesign.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
 }
