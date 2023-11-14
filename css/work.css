@@ -7,13 +7,13 @@ header{
     top: 2875px;
     height: 0px;
 }
-.WorkPage img {
+.workPageBack {
     position: relative;
     left: 0px;
     height: 926px;
-    width: 1900px;
+    width: 1908px;
 }
-.WorkPage h1{
+.workHead{
     position: relative;
     top: -879px;
     left: 815px;
@@ -115,7 +115,15 @@ header{
     color: #fff;
     line-height: 1.4;
 }
-.project img{
+.projectimg{
+    height: 356px;
+    width: 448px;
+}
+.projectimg1{
+    height: 356px;
+    width: 448px;
+}
+.projectimg2{
     height: 356px;
     width: 448px;
 }

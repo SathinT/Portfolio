@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1440px) {
 
     /*..................................................................INDEX..................................................................................................................*/
+    nav>ul>li:nth-child(1) {
+        padding: 9px;
+        margin: -8px;
+    }
     h2:nth-child(1) {
         font-size: 100px;
         top: 100px;
@@ -110,6 +114,119 @@
         left: 983px;
         top: -1202px;
         width: 492px;
+    }
+
+    /*..................................................................SERVICES..................................................................................................................*/
+
+    .servicePage{
+        top: 1851px;
+        height: 927px;
+    }
+    .servicePage img{
+        height: 928px;
+        width: 1440px;
+    }
+    .servicePage h1 {
+        left: 111px;
+        top: -860px;
+        font-size: 80px;
+    }
+    .container {
+        top: -1542px;
+        left: -311px;
+    }
+    .card {
+        width: 315px;
+        height: 471px;
+    }
+    .card1 {
+        width: 315px;
+        height: 471px;
+        left: 420px;
+        top: -471px;
+    }
+    .card2 {
+        width: 315px;
+        height: 471px;
+        left: 812px;
+        top: -942px;
+    }
+    .face.front1 b {
+        font-size: 3em;
+    }
+    .face.front2  b{
+        font-size: 3em;
+    }
+    .face.front3 b{
+        font-size: 3em;
+    }
+
+    /*..................................................................WORK..................................................................................................................*/
+    .WorkPage {
+        position: absolute;
+        top: 2780px;
+        height: 0px;
+    }
+    .workPageBack {
+        height: 926px;
+        width: 1441px;
+    }
+    .workHead{
+        left: 606px;
+    }
+    .workOverlay {
+        width: 1315px;
+        left: 55px;
+    }
+    .project {
+        width: 594px;
+        height: 302px;
+        left: 90px;
+        top: 94px;
+    }
+    .project1 {
+        width: 594px;
+        height: 302px;
+        left: 28px;
+        top: 94px;
+    }
+    .project2 {
+        width: 594px;
+        height: 302px;
+        left: -4px;
+        top: 94px;
+    }
+    .workOverlay1 {
+        top: 200px;
+        left: 862px;
+    }
+    .workgithub{
+        left: 40px;
+    }
+    .projectimg:nth-child(1) {
+        height: 305px;
+        width: 355px;
+    }
+    .project1 img {
+        height: 299px;
+        width: 354px;
+    }
+    .project2 img{
+        height: 305px;
+        width: 355px;
+    }
+
+    /*..................................................................CONTACT..................................................................................................................*/
+
+
+    .ContactPage {
+        top: 3707px;
+    }
+    .Black_Overlay-contact1 {
+        top: 0px;
+    }
+    .form {
+        left: 667px;
     }
 
 }
