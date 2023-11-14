@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1440px) {
+
+    /*..................................................................INDEX..................................................................................................................*/
+    h2:nth-child(1) {
+        font-size: 100px;
+        top: 100px;
+    }
+
+    h2:nth-child(2) {
+        font-size: 100px;
+        top: -12px;
+    }
+
+    hr{
+        left: -4px;
+        top: 307px;
+    }
+
+    h2:nth-child(4) {
+        font-size: 36px;
+        left: 52px;
+        top: 314px;
+    }
+
+    h2:nth-child(6) {
+        font-size: 24px;
+        left: 118px;
+        top: 575px;
+    }
+
+    .homeCont {
+        width: 480px;
+        left: 95px;
+    }
+
+    nav>ul {
+        left: 587px;
+    }
+
+    #Background_image {
+        width: 600px;
+        left: 698px;
+        height: 923px;
+    }
+
+    #Black_Overlay-1 {
+        width: 900px;
+        height: 928px;
+        height: 923px;
+    }
+
+    .findMoreBtn{
+        left: 151px;
+        top: 130px;
+    }
+
+    /*..................................................................ABOUT ME..................................................................................................................*/
+    .aboutPage{
+        top: 924px;
+        height: 927px;
+    }
+    .aboutBackImg{
+        width: 1473px;
+        height: 925px;
+    }
+    .Black_Overlay-about{
+        width: 1246px;
+        height: 927px;
+        top: 0px;
+        right: -236px;
+    }
+    .Black_Overlay-about1{
+        width: 1919px;
+        height: 927px;
+        top: 0px;
+    }
+    .aboutMeTxt{
+        left: 666px;
+        top: -1080px;
+    }
+    .aboutMeTxt1{
+        font-size: 55px;
+        font-weight: 400;
+        left: -94px;
+        top: 196px;
+    }
+    .aboutMeTxt p{
+        font-size: 25px;
+        top: 186px;
+        left: 158px;
+    }
+    .aboutDivider{
+        left: -25px;
+        top: 425px;
+    }
+
+}
