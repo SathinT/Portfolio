@@ -344,8 +344,20 @@
         </script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
-                $(".loading-container").fadeOut("slow");
+                // Display the loading container
+                $(".loading-container").fadeIn("slow");
+
+                // Hide the loading container after all page contents have loaded
+                $(window).on('load', function() {
+                    $(".loading-container").fadeOut("slow");
+
+                    // Keep the loading container visible for an additional 30 seconds
+                    setTimeout(function() {
+                        $(".loading-container").hide();
+                    }, 30000);
+                });
             });
         </script>
+
 </body>
 </html>
