@@ -11,10 +11,20 @@ header{
 .contacth1{
     position: relative;
     left: 135px;
-    top: -152px;
+    top: -95px;
     font-family: monospace;
     font-size: 42px;
     color: #ffd036;
+    text-shadow: 3px 3px 4px black;
+}
+.contacth2{
+    position: relative;
+    left: 88px;
+    top: -49px;
+    font-family: monospace;
+    font-size: 42px;
+    color: #ffc300;
+    text-shadow: 3px 3px 4px black;
 }
 .ContactPagebgimg{
     height: 929px;
