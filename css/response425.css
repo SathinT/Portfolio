@@ -80,4 +80,167 @@
         top: 924px;
         height: 926px;
     }
+    .aboutMeTxt {
+        left: 88px;
+        top: -1141px;
+    }
+    .aboutMeTxt p {
+        font-size: 20px;
+        top: 456px;
+        left: -75px;
+        width: 402px;
+    }
+    .aboutDivider {
+        left: -78px;
+        top: 624px;
+        width: 400px;
+    }
+    .aboutMeTxt1 {
+        font-size: 50px;
+        font-weight: 400;
+        left: 118px;
+        top: 200px;
+    }
+
+    /*SERVICE*/
+    .servicesTxt {
+        left: 298px;
+        top: -880px;
+        width: 501px;
+    }
+    .servicesTxt1{
+        font-size: 20px;
+    }
+    .servicesTxt>ul {
+        left: -71px;
+        top: 186px;
+    }
+    .servicesTxt>ul>li>a {
+        font-size: 12px;
+    }
+
+    /*EDUCATION*/
+    .educationTxt {
+        left: 104px;
+        top: -867px;
+        width: 492px;
+    }
+    .educationTxt1{
+        font-size: 25px;
+        top: 32px;
+    }
+    .educationTxt h4{
+        font-size: 12px;
+        left: -86px;
+    }
+    .educationTxt>ul>li>a{
+        font-size: 12px;
+    }
+    .educationTxt>ul {
+        left: -91px;
+    }
+
+    /*INTERESTS*/
+    .interestsTxt {
+        left: -451px;
+        top: -834px;
+        width: 471px;
+    }
+    .interestsTxt>ul>li>a{
+        font-size: 12px;
+    }
+    .interestsTxt1{
+        font-size: 20px;
+        top: 13px;
+    }
+
+    /*................................................................SERVICES.......................................................................................  */
+    .servicePage img {
+        width: 1027px;
+    }
+    .servicePage h1 {
+        left: 5px;
+    }
+    .container {
+        top: -1700px;
+        left: -260px;
+    }
+    .card {
+        width: 315px;
+        height: 220px;
+    }
+    .face.back .desc {
+        font-size: 15px;
+    }
+
+    .card1 {
+        width: 315px;
+        height: 220px;
+        left: 0px;
+        top: 76px;
+    }
+
+    .card2 {
+        width: 315px;
+        height: 220px;
+        left: 0px;
+        top: 151px;
+    }
+
+    /*................................................................WORK.......................................................................................  */
+    .workPageBack {
+        width: 426px;
+    }
+    .workHead {
+        left: 85px;
+        font-size: 45px;
+        top: -922px;
+    }
+    .workOverlay {
+        width: 412px;
+        left: 7px;
+        height: 642px;
+        top: -948px;
+    }
+
+    .projectCards {
+        display: flex;
+        margin: 10px;
+        gap: 115px;
+        position: relative;
+        left: -34px;
+        flex-direction: column;
+    }
+    .project {
+        width: 353px;
+        height: 185px;
+        left: 54px;
+        top: 20px;
+    }
+    .project1 {
+        width: 350px;
+        height: 185px;
+        left: 55px;
+        top: -74px;
+    }
+    .project2 {
+        width: 353px;
+        height: 185px;
+        left: 54px;
+        top: -171px;
+    }
+    .workOverlay1 {
+        top: -148px;
+        left: 2px;
+        width: 407px;
+    }
+    .workOverlay1 h1 {
+        left: 28px;
+        top: 12px;
+        font-size: 35px;
+    }
+    .button {
+        left: 261px;
+        top: -58px;
+    }
 }
