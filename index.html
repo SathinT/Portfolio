@@ -12,17 +12,34 @@
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="css/Contact.css">
     <link rel="stylesheet" href="css/contactbox.css">
+
     <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/slide.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--    responsives-->
     <link rel="stylesheet" href="css/response1440.css">
 
 
+
 </head>
 <body>
-        <div data-aos="fade-down" id="Background_image"><img src="assests/Home/PXL_20230911_070119537.jpg" alt=""></div>
-        <div id="Black_Overlay-1"></div>
+<div data-aos="fade-down" id="Background_image">
+    <div class="slide fade">
+        <img src="assests/Home/1.jpg" alt="Slide 1">
+    </div>
+    <div class="slide fade">
+        <img src="assests/Home/2.jpg" alt="Slide 2">
+    </div>
+    <div class="slide fade">
+        <img src="assests/Home/3.jpg" alt="Slide 3">
+    </div>
+    <div class="slide fade">
+        <img src="assests/Home/4.jpg" alt="Slide 4">
+    </div>
+</div>
+
+<div id="Black_Overlay-1"></div>
 <header>
 
     <nav>
@@ -339,7 +356,10 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
-        <script type="text/javascript">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script type="text/javascript">
+
             options = {
                 "outerStyle": "circle-basic",
                 "hoverEffect": "overlay",
@@ -366,6 +386,28 @@
                 });
             });
         </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init(); // Initialize AOS
+
+        showSlides();
+
+        function showSlides() {
+            let slides = document.querySelectorAll('.slide');
+            let index = 0;
+
+            setInterval(function () {
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = 'none';
+                }
+
+                index = (index + 1) % slides.length;
+                slides[index].style.display = 'block';
+            }, 3000); // Change the duration (in milliseconds) between slides
+        }
+    });
+</script>
 
 </body>
 </html>
