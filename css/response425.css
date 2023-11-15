@@ -1,0 +1,76 @@
+@media only screen and (max-width: 425px) {
+  /*................................................................HOME.......................................................................................  */
+    #Black_Overlay-1 {
+        width: 425px;
+        height: 302px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgb(45 45 45 / 51%) 38.02%, #2d2d2d 100%);
+        top: 258px;
+    }
+    #Background_image {
+        width: 432px;
+        left: -7px;
+        height: 559px;
+    }
+    header {
+        position: fixed;
+        z-index: 10;
+        height: 30px;
+    }
+    nav {
+        height: 30px;
+    }
+    h1 {
+        font-size: 15px;
+        top: -11px;
+        left: 7px;
+    }
+    nav>ul {
+        gap: 10px;
+        left: 32px;
+        top: -1px;
+        font-size: 10px;
+    }
+    nav>ul>li:nth-child(1) {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 0px;
+        margin: 11px;
+        position: relative;
+        top: -12px;
+        left: 14px;
+    }
+
+    .homeCont {
+        width: 480px;
+        left: -20px;
+        top: 224px;
+    }
+    h2:nth-child(1) {
+        font-size: 80px;
+        top: 100px;
+    }
+    h2:nth-child(2) {
+        font-size: 85px;
+        top: 7px;
+        left: -10px;
+    }
+    hr {
+        left: 48px;
+        top: 282px;
+        width: 363px;
+    }
+    h2:nth-child(4) {
+        font-size: 30px;
+        left: 73px;
+        top: 296px;
+    }
+    .findMoreBtn {
+        left: 138px;
+        top: 97px;
+    }
+    h2:nth-child(6) {
+        font-size: 24px;
+        left: 105px;
+        top: 480px;
+    }
+}
