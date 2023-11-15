@@ -243,4 +243,45 @@
         left: 261px;
         top: -58px;
     }
+
+    /*................................................................CONTACT.......................................................................................  */
+
+    .Black_Overlay-contact {
+        right: 211px;
+    }
+    .form {
+        left: 9px;
+        width: 408px;
+        height: 646px;
+        top: -794px;
+    }
+    .contacth1 {
+        left: 24px;
+        top: -65px;
+        font-size: 35px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: -43px;
+    }
+    .cards .card {
+        height: 95px;
+        width: 364px;
+    }
+    .contacth2 {
+        left: 24px;
+        top: -19px;
+        font-size: 29px;
+    }
+    .socials-container {
+        left: 62px;
+        top: 17px;
+    }
+    .svg {
+        top: 298px;
+    }
+
 }
