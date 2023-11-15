@@ -297,3 +297,8 @@ body {
         transform: rotate(-1turn);
     }
 }
+
+.loading-container p{
+    font-size: 50px;
+    font-family: Impact;
+}

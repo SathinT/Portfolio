@@ -338,20 +338,28 @@
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+        <script type="text/javascript">
+            options = {
+                "outerStyle": "circle-basic",
+                "hoverEffect": "overlay",
+                "hoverItemMove": false,
+                "defaultCursor": false,
+                "outerWidth": 30,
+                "outerHeight": 30,
+            }
+            magicMouse(options);
+            // magicMouseInstance.setColor("#FF0000");
+        </script>
 
         <script>
             AOS.init();
         </script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
-                // Display the loading container
                 $(".loading-container").fadeIn("slow");
-
-                // Hide the loading container after all page contents have loaded
                 $(window).on('load', function() {
                     $(".loading-container").fadeOut("slow");
-
-                    // Keep the loading container visible for an additional 30 seconds
                     setTimeout(function() {
                         $(".loading-container").hide();
                     }, 30000);
