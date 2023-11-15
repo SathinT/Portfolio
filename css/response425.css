@@ -1,4 +1,4 @@
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   /*................................................................HOME.......................................................................................  */
     #Black_Overlay-1 {
         width: 425px;
@@ -21,14 +21,14 @@
     }
     h1 {
         font-size: 15px;
-        top: -11px;
-        left: 7px;
+        top: -8px;
+        left: 4px;
     }
     nav>ul {
-        gap: 10px;
-        left: 32px;
-        top: -1px;
-        font-size: 10px;
+        gap: 9px;
+        left: 12px;
+        top: 0px;
+        font-size: 9px;
     }
     nav>ul>li:nth-child(1) {
         border: 1px solid #000;
@@ -42,7 +42,7 @@
 
     .homeCont {
         width: 480px;
-        left: -20px;
+        left: -40px;
         top: 224px;
     }
     h2:nth-child(1) {
@@ -73,4 +73,8 @@
         left: 105px;
         top: 480px;
     }
+
+    /*................................................................ABOUT ME.......................................................................................  */
+
+
 }
