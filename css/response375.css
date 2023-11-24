@@ -1,0 +1,243 @@
+@media only screen and (max-width: 375px) {
+    /*................................................................HOME.......................................................................................  */
+    #Black_Overlay-1 {
+        width: 375px;
+        height: 302px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgb(45 45 45 / 51%) 38.02%, #2d2d2d 100%);
+        top: 258px;
+    }
+    #Background_image {
+        width: 385px;
+        left: -7px;
+        height: 559px;
+    }
+    header {
+        position: fixed;
+        z-index: 10;
+        height: 30px;
+    }
+    nav {
+        height: 30px;
+    }
+    h1 {
+        font-size: 15px;
+        top: -8px;
+        left: 4px;
+    }
+    nav>ul {
+        gap: 10px;
+        left: -7px;
+        top: -1px;
+        font-size: 10px;
+    }
+    nav>ul>li:nth-child(1) {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 0px;
+        margin: 11px;
+        position: relative;
+        top: -12px;
+        left: 14px;
+    }
+
+    .homeCont {
+        width: 480px;
+        left: -43px;
+        top: 224px;
+    }
+    h2:nth-child(1) {
+        font-size: 80px;
+        top: 100px;
+    }
+    h2:nth-child(2) {
+        font-size: 85px;
+        top: 7px;
+        left: -10px;
+    }
+    hr {
+        left: 48px;
+        top: 282px;
+        width: 363px;
+    }
+    h2:nth-child(4) {
+        font-size: 30px;
+        left: 73px;
+        top: 296px;
+    }
+    .findMoreBtn {
+        left: 138px;
+        top: 97px;
+    }
+    h2:nth-child(6) {
+        font-size: 24px;
+        left: 105px;
+        top: 480px;
+    }
+
+    /*................................................................ABOUT ME.......................................................................................  */
+
+    .aboutPage {
+        top: 924px;
+        height: 926px;
+    }
+    .aboutMeTxt {
+        left: 88px;
+        top: -1141px;
+    }
+    .aboutMeTxt p {
+        font-size: 17px;
+        top: 456px;
+        left: -67px;
+        width: 342px;
+    }
+    .aboutDivider {
+        left: -78px;
+        top: 624px;
+        width: 346px;
+    }
+    .aboutMeTxt1 {
+        font-size: 50px;
+        font-weight: 400;
+        left: 69px;
+        top: 200px;
+    }
+
+    /*SERVICE*/
+    .servicesTxt {
+        left: 257px;
+    }
+    .servicesTxt1{
+        left: -459px;
+    }
+    .servicesTxt>ul {
+        left: -71px;
+        top: 186px;
+    }
+    .servicesTxt>ul>li>a {
+        font-size: 12px;
+    }
+
+    /*EDUCATION*/
+    .educationTxt {
+        left: 104px;
+        top: -867px;
+        width: 492px;
+    }
+    .educationTxt1{
+        font-size: 25px;
+        top: 32px;
+    }
+    .educationTxt h4{
+        font-size: 12px;
+        left: -86px;
+    }
+    .educationTxt>ul>li>a{
+        font-size: 12px;
+    }
+    .educationTxt>ul {
+        left: -91px;
+    }
+
+    /*INTERESTS*/
+    .interestsTxt {
+        left: -451px;
+        top: -834px;
+        width: 471px;
+    }
+    .interestsTxt>ul>li>a{
+        font-size: 12px;
+    }
+    .interestsTxt1{
+        font-size: 20px;
+        top: 13px;
+    }
+
+    /*................................................................SERVICES.......................................................................................  */
+    .servicePage img {
+        width: 1027px;
+    }
+    .servicePage h1 {
+        left: 79px;
+        writing-mode: horizontal-tb;
+        font-size: 43px;
+        top: -929px;
+    }
+    .container {
+        top: -943px;
+        left: -319px;
+    }
+
+    /*................................................................WORK.......................................................................................  */
+    .workPageBack {
+        width: 426px;
+    }
+    .workHead {
+        left: 85px;
+        font-size: 45px;
+        top: -922px;
+    }
+    .workOverlay {
+        width: 361px;
+        top: -907px;
+    }
+
+    .projectCards {
+        left: -39px;
+    }
+    .project {
+        width: 310px;
+    }
+    .project1 {
+        width: 310px;
+    }
+    .project2 {
+        width: 310px;
+    }
+    .workOverlay1 {
+        width: 356px;
+    }
+    .workOverlay1 a {
+        top: -48px;
+        position: relative;
+    }
+    .workOverlay1 h1 {
+        left: 20px;
+        top: 18px;
+        font-size: 29px;
+    }
+    .button {
+        left: 216px;
+        top: 4px;
+    }
+
+    /*................................................................CONTACT.......................................................................................  */
+
+    .Black_Overlay-contact {
+        right: 211px;
+    }
+    .form {
+        width: 353px;
+    }
+    .contacth1 {
+        left: 14px;
+        top: -53px;
+        font-size: 32px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: -43px;
+    }
+    .cards .card {
+        width: 244px;
+        left: -11px;
+    }
+    .contacth2 {
+        font-size: 24px;
+    }
+    .socials-container {
+        left: 34px;
+    }
+}
